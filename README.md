@@ -1,6 +1,7 @@
 # JUCE_SoundTouch
 
 A JUCE module that wraps the SoundTouch library in a JUCE-style module.
+
 https://github.com/juce-framework/JUCE
 https://gitlab.com/soundtouch/soundtouch
 
@@ -8,12 +9,14 @@ To use, clone and copy the ea_soundtouch folder into your project somewhere.
 
 If using the Projucer, go to the modules section of your project, click the "+" button and choose "Add a module
 from a specified folder".
-
 If using CMake, use:
+```cmake
 juce_add_module(ea_soundtouch)
-
+```
 and then in your code:
+```cpp
 #include <ea_soundtouch/ea_soundtouch.h>
+```
 
 (When using the Projucer, this include is automatically generated)
 
