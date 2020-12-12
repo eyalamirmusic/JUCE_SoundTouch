@@ -3,6 +3,7 @@
 A JUCE module that wraps the SoundTouch library in a JUCE-style module.
 
 https://github.com/juce-framework/JUCE
+
 https://gitlab.com/soundtouch/soundtouch
 
 To use, clone and copy the ea_soundtouch folder into your project somewhere.
