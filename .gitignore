@@ -1,32 +1,39 @@
-# Prerequisites
-*.d
+*.user
+*.cbp
+Makefile
+/build
+/out
+.vs
+CMakeSettings.json
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+*.zip
+*.pkg
 
-# Precompiled Headers
-*.gch
-*.pch
+**/VisualStudio2017/.vs
+**/VisualStudio2017/x64
+**/VisualStudio2019/.vs
+**/VisualStudio2019/x64
+**/MacOSX/build/Release
+**/MacOSX/build/Debug
+**/iOS/build/Release
+**/iOS/build/Debug
+**/MacOSX/.idea/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+cmake-build*
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+CMakeScripts
 
-# Fortran module files
-*.mod
-*.smod
+.idea
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+IDEWorkspaceChecks.plist
+UserInterfaceState.xcuserstate
+xcschememanagement.plist
+*.xcscheme
+.vscode
+*.xcworkspace
+*.DS_Store
 
-# Executables
-*.exe
-*.out
-*.app
+workspace.xml
+xcuserdata
